@@ -1,0 +1,53 @@
+name: revisystem
+version: '${project.version}'
+main: de.fellurion.revisystem.Revisystem
+author: MarcoVo
+api-version: '1.20'
+permissions:
+  op.op.self:
+    default: not op
+  op.op.other:
+    default: not op
+  op.deop.other:
+    default: op
+  op.deop.self:
+    default: op
+  netlist.admin:
+    default: op
+  whiteopsys.fly:
+    default: op
+  whiteopsys.fly.speed:
+    default: op
+  whiteopsys.gm:
+    default: op
+  system.invsee.see:
+    default: op
+  system.invsee.edit:
+    default: op
+  system.enderchest.see:
+    default: op
+  system.enderchest.edit:
+    default: op
+
+commands:
+  op: {}
+  deop: {}
+  op_reload: {}
+  main:
+    usage: /<command>
+    aliases: [ wl,ewhitelist ]
+  gm:
+    aliases:
+      - 0
+      - 1
+      - 2
+      - 3
+  fly:
+    aliases:
+      - 0
+      - 1
+      - 2
+      - 3
+  invsee: {}
+  endersee: {}
+

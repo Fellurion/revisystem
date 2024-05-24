@@ -1,0 +1,17 @@
+#Server_System
+#Author: Fellurion
+#database: local
+# trage hier dein passwort ein fOP zugriff
+op_password: 123
+deop_password: 123
+
+
+
+########################################################################################################################
+################################___WHITELIST___########################################################################
+# namen nur per command hinzufum Fehler zu vermeiden mit /wl add <Name>
+# no_whitelisted ist der Text was angezeigt wird wenn man nicht eingetragen wurde auf der Whitelist
+whitelist: false
+no_whitelisted: "&aDu stehts leider nicht auf der Liste."
+whitelisted:
+  - "Test"
